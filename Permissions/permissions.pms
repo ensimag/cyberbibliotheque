@@ -1,0 +1,9 @@
+-- This file describes the permission model using the (P)er(M)issions (S)yntax.
+--
+-- At the moment this file cannot be compiled
+--
+
+import usecase model from ../Usecases/usecases.ucs
+import class model from ../Classes/classes.cls
+
+permission model

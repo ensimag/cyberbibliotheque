@@ -1,0 +1,35 @@
+-- This file contains a scenario model using the USE OCL "soil" syntax
+-- with annotations from the (SC)cenario (S)yntax.
+-- Information about the soil syntax can be found here:
+-- See http://scribestools.readthedocs.io/en/latest/useocl/index.html#syntax
+--
+-- This file can be compiled using USE OCL interpreter with the
+-- following command (from top level directory)::
+--
+--      use -qv Classes/classes.cls Scenarios/1/scenario.scs
+--
+
+
+-- 1. Nourry Blanc est professeur de musique.
+-- 2. Il décide de réaliser dans en terminale S876 un atelier "+ de tolerance".
+-- 3. Cet atelier aura lieu du 23/11/2018 au 27/11/2018.
+-- 4. Cet atelier sera basé sur l'album "All is One".
+-- 5. Il y a 20 exemplaires de cette oeuvre à la bibliothèque "Mandela/Paris".
+-- 6. Mélanie Schwartz, se rend la première à la bibliothèque le 20/11/2018.
+-- 7. Elle se rend tout d'abord au guichet.
+-- 8. Mélanie rend d'abord l'album "Razamanaz" qu'elle avait depuis le 16/11/2018.
+-- 9. Il s'agissait de l'unique exemplaire dans cette bibliothèque.
+-- 10. Jacky Chen, un des bibliothécaire, vérifie qu'il y n'a pas de problème avec l'album rentré.
+-- 11. Il valide le fait que l'album est rentré et met l'exemplaire sur une étagère.
+-- 12. Un magazinier viendra plus tard pour récupérer les oeuvres et les mettre en rayon.
+-- 13. Mélanie rentre dans la bibliothèque et va dans les rayons.
+-- 14. Elle voit qu'il y a beaucoup d'exemplaires de l'album "All is One" (20 en fait).
+-- 15. Elle prend un des exemplaires et se dirige au guichet ou se trouve Jacky.
+-- 16. Jacky scanne l'exemplaire.
+-- 17. Jacky indique à Mélanie qu'elle peut garder l'album pendant une semaine.
+-- 18. Jacky donne à Mélanie un exemplaire de "All is One".
+-- 19. Après une semaine, Mélanie va à la bibliothéque pour demander une prolongation.
+-- 20. Dans la bibliothèque elle recontre Sybra, un magaziner qu'elle connait bien.
+-- 21. Sybra regarde l'historique des emprunts de Mélanie.
+-- 22. Il n'y a pas de problème.
+-- 23. Il valide la prolongation pour une semaine.

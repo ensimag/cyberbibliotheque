@@ -1,0 +1,8 @@
+-- This file describes the Class model (CL) using the USE OCL syntax.
+-- See http://scribestools.readthedocs.io/en/latest/useocl/index.html#syntax
+--
+-- This file can be compiled using the following command (from top level dir.)
+--
+--      use -c Classes/classes.cls
+--
+--

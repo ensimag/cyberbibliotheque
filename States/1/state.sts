@@ -1,0 +1,34 @@
+-- This file contains a state model using the USE OCL "soil" syntax
+-- with annotations from the (ST)ate (S)yntax. A state model
+-- is actually called "object model" in UML.
+-- Information about the "soil" syntax can be found here:
+-- See http://scribestools.readthedocs.io/en/latest/useocl/index.html#syntax
+--
+-- This file can be compiled using USE OCL interpreter with the
+-- following command (from top level directory)::
+--
+--      use -qv Classes/classes.cls States/1/state.sts
+--
+
+
+-- 1. Nourry Blanc est professeur de musique.
+-- 2. Alicia Ganto est professeur de math.
+-- 3. Méliane Schwartz est en terminale S876.
+-- 4. Sofia Cho est en seconde S210.
+-- 5. Nourry Blanc intervient en seconde R232 et en terminale S876.
+-- 6. Nourry organise un atelier "+ de tolérance".
+-- 7. Cet atelier a lieu du 23/11/2018 au 27/11/2018 en terminale S876.
+-- 8. Cet atelier est basé sur l'album "All is One", ISBN 875-78000-89250.
+-- 9. Kobi Farhi et Yossi Sassi sont auteurs de cet album.
+-- 10. Il y a 20 exemplaires de cette œuvre à la bibliothèque «Mandela/Paris».
+-- 11. Il y a 12 exemplaires en stock dans la bibliothèque "Champollion/Figeac".
+-- 12. Les exemplaires pour 'atelier "+ de tolérance" seront pris à "Mandela/Paris".
+-- 13. Comme il y a 15 élèves en Terminal S876, le stock sera suffisant.
+-- 14. Il y a 30 exemplaires du livre "La tolérance pour les Nuls" à "Mandela/Paris".
+-- 15. Kobi Farhi est l'auteur de ce livre qui a pour ISBN 525-78545-89656.
+-- 16. Sofia Cho a emprunté le disque Razamanaz à "Mandela/Paris" le 10/02/2018.
+-- 17. Elle a aussi emprunté le livre le même jour.
+-- 18. Elle a rendu le livre 3 jours après le 13/02/2018.
+-- 19. Elle l'a ensuite emprunté de nouveau le 15/05/2018.
+-- 20. Elle l'a rendu le 28/05/2018 après 2 prolongations de 7 jours.
+-- 21. Les prolongations ont été signées par Jacky Chen le 20/05/2018 et 25/05/2018.
