@@ -1,9 +1,21 @@
--- This file describes the permission model using the (P)er(M)issions (S)yntax.
+-- No compiler for this model
 --
--- At the moment this file cannot be compiled
+-- (informal) syntax for rule:
+--
+--    permissionModel ::= modelDefinition { rule }
+--    modelDefinition ::= "permission" "model" id
+--
+--    rule ::= subject "can" {operation ","} {resource ","}
+--    subject ::= actor | usecase
+--    operation ::= "Create"|"Read"|"Update"|"Delete"
+--    resource ::= class | association | class.attribute
 --
 
-import usecase model from ../Usecases/usecases.ucs
-import class model from ../Classes/classes.cls
+permission model CyberBibliotheque
 
-permission model
+Enseignant can Create Atelier, Realise, TravailleSur
+ModifierSonMotDePasse can Read, Update Membre.motDePasse
+
+-- TODO: ajouter d'autres règles
+--       ces règles doivent être conformes au modèle de classe
+--       et au modèle de cas d'utilisation

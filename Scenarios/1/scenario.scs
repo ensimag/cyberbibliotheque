@@ -1,19 +1,34 @@
--- This file contains a scenario model using the USE OCL "soil" syntax
--- with annotations from the (SC)cenario (S)yntax.
--- Information about the soil syntax can be found here:
--- See http://scribestools.readthedocs.io/en/latest/useocl/index.html#syntax
---
--- This file can be compiled using USE OCL interpreter with the
--- following command (from top level directory)::
+-- To compile:
 --
 --      use -qv Classes/classes.cls Scenarios/1/scenario.scs
 --
+-- scenario model Sc1
+
+-- TODO:
+--    corriger les erreurs et completer la suite
 
 
 -- 1. Nourry Blanc est professeur de musique.
--- 2. Il décide de réaliser dans en terminale S876 un atelier "+ de tolerance".
--- 3. Cet atelier aura lieu du 23/11/2018 au 27/11/2018.
--- 4. Cet atelier sera basé sur l'album "All is One".
+! create nourry : Enseignant
+! nourry.nom := 'Nourry Blanc'
+! nourry.matiere := 'musique'
+! nourry.login := Undefined
+! nourry.motDePasse := Undefined
+
+
+-- usecasei nourry CreerUnAtelier
+    -- 2. Il décide de réaliser dans en terminale S876 un atelier "+ de tolerance".
+    ! create s876 : Classe
+    ! s876.code := 'S876'
+    ! create atTolerance : Atelier
+    ! atTolerance.titre := '+ de tolerance'
+    ! insert (nourry, atTolerance) into Realise
+
+    -- 3. Cet atelier aura lieu du 23/11/2018 au 27/11/2018.
+    -- 4. Cet atelier sera basé sur l'album "All is One".
+-- end
+
+
 -- 5. Il y a 20 exemplaires de cette oeuvre à la bibliothèque "Mandela/Paris".
 -- 6. Mélanie Schwartz, se rend la première à la bibliothèque le 20/11/2018.
 -- 7. Elle se rend tout d'abord au guichet.

@@ -1,3 +1,23 @@
--- This file describes the usecase model using the (U)se(C)ase (S)yntax.
+-- No compiler available for this file
 --
 --
+
+usecase model CyberBibliotheque
+
+actor Member
+    usecase ModifierSonMotDePasse
+
+actor Enseignant < Member
+    usecase CreerUnAtelier
+    -- TODO ajouter d'autre cas d'utilisation si nécessaire
+
+actor Bibliothecaire
+    usecase ProlongerUnEmprunt
+    -- TODO ajouter d'autre cas d'utilisation si nécessaire
+
+-- TODO ajouter d'autre acteur/cas d'utilisation si nécessaire
+
+
+
+
+

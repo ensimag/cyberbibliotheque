@@ -1,17 +1,11 @@
--- This file contains a state model using the USE OCL "soil" syntax
--- with annotations from the (ST)ate (S)yntax. A state model
--- is actually called "object model" in UML.
--- Information about the "soil" syntax can be found here:
--- See http://scribestools.readthedocs.io/en/latest/useocl/index.html#syntax
---
--- This file can be compiled using USE OCL interpreter with the
--- following command (from top level directory)::
+-- To compile::
 --
 --      use -qv Classes/classes.cls States/1/state.sts
 --
 
 
 -- 1. Nourry Blanc est professeur de musique.
+
 -- 2. Alicia Ganto est professeur de math.
 -- 3. Méliane Schwartz est en terminale S876.
 -- 4. Sofia Cho est en seconde S210.
